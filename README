@@ -1,0 +1,30 @@
+README:
+
+In order to run the program:
+
+
+Preprocessing:
+1. Run python /src/cooccurence_generator2.py
+2. Run python /src/count_generator2.py
+
+
+
+In order to run the word spell check:
+Run python /src/code.py
+
+It takes words on separate lines as inputs from stdin.
+Once all the words have been typed, give EOF (Ctrl+D) as input to get the suggestions.
+OR
+Redirect input to a file containing words on separate lines.
+
+
+
+In order to run the phrase/sentence spell check:
+1. Run python /src/code2.py
+
+It takes sentences on separate lines as inputs from stdin.
+Once a sentence has been typed, give EOF (Ctrl+D) as input to get the suggestions.
+OR
+Type multiple sentences on separate lines and give EOF (Ctrl+D) as input to get the suggestions for all the sentences.
+OR
+Redirect input to a file containing sentences on separate lines.
